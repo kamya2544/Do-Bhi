@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #95b6f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .contact-info .info {
+        flex: 1;
+        text-align: center;
+    }
+
+    .contact-info .info i {
+        font-size: 40px;
+        color: #1e90ff;
+        margin-bottom: 10px;
+    }
+
+    .contact-info .info p {
+        color: #666;
+        margin: 0;
+    }
+
+    .contact-form {
+        margin-top: 50px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .contact-form textarea {
+        height: 120px;
+    }
+
+    .contact-form input[type="submit"] {
+        background-color: #1e90ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact-form input[type="submit"]:hover {
+        background-color: #0066cc;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Contact Us</h2>
+
+    <div class="contact-info">
+        <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>123 Street Name, City, Country</p>
+        </div>
+        <div class="info">
+            <i class="fas fa-envelope"></i>
+            <p>example@example.com</p>
+        </div>
+        <div class="info">
+            <i class="fas fa-phone"></i>
+            <p>+123 456 7890</p>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

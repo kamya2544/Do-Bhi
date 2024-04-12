@@ -1,0 +1,44 @@
+.text-primary
+{
+    color:#255bb9;
+}
+.text-secondary
+{
+    color: #0284d0;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(49, 44, 44);
+    background-color: #a9d0e3;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.btn-primary{
+    background-color: #a9d0e3;
+    color: rgb(5, 5, 5);
+}
+.btn-secondary{
+    background-color: #0284d0;
+    color: white;
+
+}
+.btn-dark{
+    background: black;
+    color: white;
+}
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.flex-items > div{
+    padding: 20px;
+}
